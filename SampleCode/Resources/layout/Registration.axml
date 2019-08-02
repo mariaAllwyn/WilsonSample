@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LL_PatientInfo">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="Social Security Number"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <EditText
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_PatId"
+                android:layout_marginTop="2dp"
+                android:maxLength="50"
+                android:textCursorDrawable="@drawable/CursorStyle"
+                android:paddingLeft="5dp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView2"
+                android:text="Name"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_PatName"
+                android:layout_marginTop="2dp"
+                android:maxLength="100"
+                android:textCursorDrawable="@drawable/CursorStyle"
+                android:nextFocusForward="@+id/edt_ContactNumber"
+                android:paddingLeft="5dp"
+                android:capitalize="words" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:text="Contact Number"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:background="@drawable/shape"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_ContactNumber"
+                android:maxLength="15"
+                android:textCursorDrawable="@drawable/CursorStyle"
+                android:layout_marginTop="2dp"
+                android:nextFocusForward="@+id/edt_Age"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:text="Age"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:inputType="number"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:id="@+id/edt_Age"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:numeric="integer"
+                android:textCursorDrawable="@drawable/CursorStyle"
+                android:maxLength="3"
+                android:nextFocusForward="@+id/rdo_Male"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:text="Sex"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/radioGroup1">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Male"
+                        android:id="@+id/rdo_Male"
+                        android:layout_marginLeft="50dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:nextFocusRight="@+id/rdo_Female" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:id="@+id/rdo_Female"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:nextFocusForward="@+id/spn_Relationship" />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                android:text="Permanent Address"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView7"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_Address"
+                android:numeric="integer"
+                android:maxLength="200"
+                android:textCursorDrawable="@drawable/CursorStyle"
+                android:layout_marginTop="2dp"
+                android:nextFocusForward="@+id/edt_Cluster"
+                android:paddingLeft="5dp"
+                android:capitalize="words" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginRight="10dp"
+                android:text="State"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_marginTop="10dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_height="10dp"
+                android:background="#f7f7f7" />
+            <EditText
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:id="@+id/edt_State"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:maxLength="100"
+                android:textCursorDrawable="@drawable/CursorStyle"
+                android:layout_marginTop="-6dp"
+                android:nextFocusForward="@+id/edt_Block"
+                android:paddingLeft="5dp"
+                android:capitalize="words" />
+            <TextView
+                android:text="District"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_District"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/edt_District"
+                android:maxLength="100"
+                android:textCursorDrawable="@drawable/CursorStyle"
+                android:layout_marginTop="2dp"
+                android:nextFocusForward="@+id/rdbReasonQuestYes"
+                android:paddingLeft="5dp"
+                android:capitalize="words" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/space1"
+                android:minHeight="15dp" />
+            <Button
+                android:text="Save and Proceed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:background="#017A69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_SaveAndGo"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

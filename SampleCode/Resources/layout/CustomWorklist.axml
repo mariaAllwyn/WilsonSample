@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/RelativeLayoutcustom"
+    android:background="@android:color/darker_gray"
+    android:paddingBottom="2dp">
+    <LinearLayout
+        android:id="@+id/LL_Text"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/Text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:textColor="#781D65"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="2dp" />
+        <LinearLayout
+            android:id="@+id/LL_textarea"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:id="@+id/Tbl_Text2"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="0dp">
+                <TextView
+                    android:id="@+id/Text2"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip"
+                    android:textColor="#29285E"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp" />
+            </TableRow>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

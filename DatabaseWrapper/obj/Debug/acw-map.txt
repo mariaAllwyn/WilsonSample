@@ -1,0 +1,4 @@
+DatabaseWrapper.DataHelper.DatabaseHelper, DatabaseWrapper;md5d7268923bdff67c2695ba88a9230fd27.DatabaseHelper
+DatabaseWrapper.DataHelper.DatabaseHelper, DatabaseWrapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d7268923bdff67c2695ba88a9230fd27.DatabaseHelper
+DatabaseWrapper.DataHelper.DatabaseHelper;md5d7268923bdff67c2695ba88a9230fd27.DatabaseHelper
+databasewrapper.datahelper.DatabaseHelper;md5d7268923bdff67c2695ba88a9230fd27.DatabaseHelper

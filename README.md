@@ -1,2 +1,0 @@
-# WilsonSample
-Sample

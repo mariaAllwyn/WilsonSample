@@ -1,0 +1,15 @@
+D:\Interview\SampleCode\DatabaseWrapper\bin\Debug\DatabaseWrapper.dll
+D:\Interview\SampleCode\DatabaseWrapper\bin\Debug\DatabaseWrapper.pdb
+D:\Interview\SampleCode\DatabaseWrapper\bin\Debug\DatabaseWrapper.DatabaseWrapper.apk
+D:\Interview\SampleCode\DatabaseWrapper\bin\Debug\DatabaseWrapper.DatabaseWrapper-Signed.apk
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\DatabaseWrapper.csprojResolveAssemblyReference.cache
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\DatabaseWrapper.dll
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\DatabaseWrapper.pdb
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\android\bin\DatabaseWrapper.DatabaseWrapper.apk
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\res\layout\main.xml
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\res\values\strings.xml
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\res\drawable\icon.png
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\R.cs.flag
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\uploadflags.txt
+D:\Interview\SampleCode\DatabaseWrapper\bin\Debug\DatabaseWrapper.dll.mdb
+D:\Interview\SampleCode\DatabaseWrapper\obj\Debug\android\assets\DatabaseWrapper.dll.mdb

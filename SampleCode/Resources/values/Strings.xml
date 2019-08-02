@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">SampleCode</string>
+  <string name="enter_login">Username</string>
+  <string name="enter_password">Password</string>
+  <string name="enter_provider">Provider name</string>
+</resources>

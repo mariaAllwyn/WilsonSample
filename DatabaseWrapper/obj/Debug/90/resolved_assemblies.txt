@@ -1,0 +1,13 @@
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\DatabaseWrapper.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\Java.Interop.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\Microsoft.CSharp.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\Mono.Android.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\mscorlib.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\System.Core.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\System.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\System.Xml.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\System.Xml.Linq.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\System.Net.Http.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
+D:\Pay Asia\SampleCode\SampleCode\DatabaseWrapper\obj\Debug\90\android\assets\Mono.Security.dll
